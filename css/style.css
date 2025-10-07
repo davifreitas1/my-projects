@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #000;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(28, 28, 28, 1) 95%);
+}
+
+nav {
+    width: 50%;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #494949;
+    background-image: url("../img/programador.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+section {
+    height: 80vh;
+    padding: 10%;
+}
+
+section p {
+    font-size: 24px;
+    color: aquamarine;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    width: 20px;
+    fill: #a4a4a4;
+}
+
+.bg-black {
+    background: #000;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(28, 28, 28, 1) 35%);
+}
+
+.call-to-action {
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.call-to-action:hover {
+    transform: scale(1.1);
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #a4a4a4;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    filter: brightness(2);
+    transform: translateY(-2px) scale(1.03);
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.socialmedia a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #a4a4a4;
+    transition: 0.3s;
+}
+
+.socialmedia a:hover {
+    filter: brightness(2);
+    transform: translateY(-2px) scale(1.03);
+}
