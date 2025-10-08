@@ -29,20 +29,11 @@ nav {
 main {
     flex-grow: 1;
     background-color: #494949;
-    background-image: url("../img/programador.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
 }
 
 section {
-    height: 80vh;
+    height: 90vh;
     padding: 10%;
-}
-
-section p {
-    font-size: 24px;
-    color: aquamarine;
 }
 
 footer {
@@ -59,6 +50,11 @@ svg {
 .bg-black {
     background: #000;
     background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(28, 28, 28, 1) 35%);
+}
+
+.blue-p {
+    font-size: 24px;
+    color: aquamarine;
 }
 
 .call-to-action {
@@ -118,4 +114,36 @@ svg {
 .socialmedia a:hover {
     filter: brightness(2);
     transform: translateY(-2px) scale(1.03);
+}
+
+.half-about {
+    width: 50%;
+    color: #494949;
+}
+
+.half-about-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background-image: url("../img/programador.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+#foto-pc {
+    width: auto;
+    display: block;
+    height: 100%;
+    border-radius: 100% 100% 100% 0%;
+    box-shadow: 5px 5px 10px 5px #494949;
 }
