@@ -190,5 +190,26 @@ footer p {
     position: absolute;
     left: auto;
     right: calc(0% + 10px);
-    bottom: calc(100% - 6vh);
+    bottom: calc(100% - 10vh);
+}
+
+@media(max-width: 376px) {
+    #about {
+        flex-direction: column;
+    }
+
+    .half-about {
+        width: 100%;
+        text-align: center;
+    }
+
+    .half-about p {
+        text-align: justify;        
+    }
+
+    #foto-pc {
+        height: auto;
+        width: 70%;
+        margin: 10px;
+    }
 }
